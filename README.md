@@ -103,3 +103,9 @@ services:
 ```
 
 终端切换到 docker-compose.yml 所在目录，执行 `docker-compose up -d` 一键部署。
+
+启动命令
+
+```
+java -jar ballcat-codegen.jar --spring.profiles.active=prod --jasypt.encryptor.password=123456
+```
